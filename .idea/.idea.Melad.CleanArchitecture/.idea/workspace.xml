@@ -8,12 +8,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="400afe07-9140-4df2-b950-a154a77f0e28" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Melad.CleanArchitecture/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Melad.CleanArchitecture.Template.sln" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Application/UpdateTodoItem.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WebApi/Controllers/v1/HomeController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WebApi/GlobalUsings.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Melad.CleanArchitecture/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Melad.CleanArchitecture/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Melad.CleanArchitecture.Template.sln" beforeDir="false" afterPath="$PROJECT_DIR$/Melad.CleanArchitecture.Template.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template.csproj" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -153,8 +150,16 @@
       <workItem from="1700589805133" duration="747000" />
       <workItem from="1700590580257" duration="7855000" />
       <workItem from="1700607298318" duration="4868000" />
-      <workItem from="1700648166000" duration="5998000" />
+      <workItem from="1700648166000" duration="14997000" />
     </task>
+    <task id="LOCAL-00001" summary=":tada: Init">
+      <created>1700655977765</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1700655977765</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -163,6 +168,8 @@
   <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value=":tada: Init" />
+    <option name="LAST_COMMIT_MESSAGE" value=":tada: Init" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -1,0 +1,30 @@
+{
+    "$schema": "http://json.schemastore.org/template",
+    "author": "Melad Kamari",
+    "classifications": ["Api"],
+    "name": "Melad.CleanArchitecture.Template",
+    "defaultName": "Melad.CleanArchitecture.Template",
+    "identity": "Melad.CleanArchitecture.Template",
+    "shortName": "Melad.CA",
+    "tags": {
+      "language": "C#",
+      "type": "project"
+    },
+    "sourceName": "Melad.CleanArchitecture.Template",
+    "preferNameDirectory": true,
+    "description": "Written By Melad Kamari",
+  "symbols": {
+    "SubcommandName": {
+      "type": "parameter",
+      "description": "name of The sub command",
+      "replaces": "Melad.CleanArchitecture",
+      "defaultValue": "Melad.CleanArchitecture"
+    },
+    "SubcommandDesc": {
+      "type": "parameter",
+      "description": "Change Assembly Name",
+      "replaces": "Melad.CleanArchitecture",
+      "defaultValue": "Melad.CleanArchitecture"
+    }
+  }
+}

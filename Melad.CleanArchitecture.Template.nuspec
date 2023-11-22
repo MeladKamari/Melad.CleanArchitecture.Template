@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+    <metadata>
+        <id>Melad.CleanArchitecture.Template</id>
+        <title>Melad.CleanArchitecture.Template</title>
+        <version>1.0.0</version>
+        <icon>Content/.template.config/icon.jpg</icon>
+        <description>
+            Template Project CleanArchitecture.
+        </description>
+        <authors>Melad</authors>
+        <license type="expression">MIT</license>
+        <projectUrl>https://github.com/MeladKamari/Melad.CleanArchitecture.Template</projectUrl>
+        <tags>C#,Template,.Net</tags>
+        <packageTypes>
+            <packageType name="Template" />
+        </packageTypes>
+    </metadata>
+    <files>
+        <file src="Content\**\*.*" exclude="Content\**\bin\**\*.*;Content\**\obj\**\*.*" target="Content" />
+    </files>
+</package>
