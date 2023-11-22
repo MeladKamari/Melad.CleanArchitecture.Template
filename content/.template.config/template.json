@@ -1,6 +1,6 @@
 {
     "$schema": "http://json.schemastore.org/template",
-    "author": "Melad Kamari",
+    "author": "Melad",
     "classifications": ["Api"],
     "name": "Melad.CleanArchitecture.Template",
     "defaultName": "Melad.CleanArchitecture.Template",
@@ -12,19 +12,31 @@
     },
     "sourceName": "Melad.CleanArchitecture.Template",
     "preferNameDirectory": true,
-    "description": "Written By Melad Kamari",
+    "description": "Written By Melad",
   "symbols": {
     "SubcommandName": {
       "type": "parameter",
-      "description": "name of The sub command",
+      "description": "RootName",
       "replaces": "Melad.CleanArchitecture",
       "defaultValue": "Melad.CleanArchitecture"
     },
-    "SubcommandDesc": {
+    "Framework": {
       "type": "parameter",
-      "description": "Change Assembly Name",
-      "replaces": "Melad.CleanArchitecture",
-      "defaultValue": "Melad.CleanArchitecture"
+      "description": "The target framework for the project.",
+      "datatype": "choice",
+      "choices": [
+        {
+          "choice": "net8.0"
+        }
+      ],
+      "defaultValue": "net8.0",
+      "replaces": "{TargetFramework}"
+    },
+    "EnableSwaggerSupport": {
+      "type": "parameter",
+      "description": "Enable swagger support",
+      "datatype": "bool",
+      "defaultValue": "true"
     }
   }
 }

@@ -4,12 +4,16 @@ var services = builder.Services;
 services.AddEndpointsApiExplorer();
 services.AddCustomApiVersioning()
     .AddMediatr(typeof(UpdateTodoItemCommand).Assembly)
+    @*#if (EnableSwaggerSupport)
     .AddSwagger("/api/v1/user/Token")
+    #endif*@
     .AddControllers();
 var app = builder.Build();
 if (app.Environment.IsDevelopment())
 {
+    @*#if (EnableSwaggerSupport)
     app.UseSwaggerAndUI();
+    #endif*@
 }
 
 app.UseHttpsRedirection();
