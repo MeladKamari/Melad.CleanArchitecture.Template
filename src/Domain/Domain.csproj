@@ -1,0 +1,10 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <RootNamespace>Melad.CleanArchitecture.Domain</RootNamespace>
+        <AssemblyName>Melad.CleanArchitecture.Domain</AssemblyName>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Melad.Common" />
+    </ItemGroup>
+</Project>

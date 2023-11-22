@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+    <PropertyGroup>
+        <RootNamespace>Melad.CleanArchitecture.WebApi</RootNamespace>
+        <AssemblyName>Melad.CleanArchitecture.WebApi</AssemblyName>
+    </PropertyGroup>
+    <ItemGroup>
+      <ProjectReference Include="..\Application\Application.csproj" />
+    </ItemGroup>
+    <PropertyGroup>
+        <DocumentationFile>bin\Debug\Melad.CleanArchitecture.WebApi.xml</DocumentationFile>
+    </PropertyGroup>
+    
+</Project>
